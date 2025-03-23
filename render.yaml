@@ -1,0 +1,6 @@
+services:
+  - type: static # Тип сервиса — статический сайт
+    env: production # Окружение — production
+    buildCommand: npm run build # Команда для сборки
+    startCommand: npm run preview # Команда для предпросмотра
+    publish: dist # Директория с собранными файлами
